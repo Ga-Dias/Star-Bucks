@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*"Travei" a tela para não ter uma scroll*/
+html, body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+/*Menu*/
+header{
+    padding: 20px 0;
+    height: 200px;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    width: 50%;
+    text-align: right;
+    padding-top: 30px;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.menu a:hover{
+    color: #017143;
+}
+
+/*Bola verde*/
+section.sobre{
+    position: relative;
+    height: calc(100% - 200px);
+}
+
+.extras{
+    position: absolute;
+    bottom: -480px;
+    right: -450px;
+    width: 950px;
+    height: 950px;
+    border-radius: 50%;
+    background-color: #017143;
+}
+
+/*Big Shake*/
+.extras img{
+    display: block;
+    height: 450px;
+    margin-top: -30px;
+}
+
+/*Social Midia*/
+.social{
+    position: absolute;
+    right: 460px;
+    top: 110px;
+}
+
+.social img{
+    display: block;
+    margin-top: 30px;
+    width: 30px;
+    height: auto;
+}
+
+/*Texto*/
+.texto{
+    margin-top: -30px;
+    width: 50%;
+}
+
+.texto h1{
+    font-size: 50px;
+}
+
+.texto p{
+    display: block;
+    margin-top: 20px;
+}
+
+/*botão*/
+.texto button{
+    display: inline-block;
+    appearance: none;
+    border: 0;
+    border-radius: 30px;
+    background-color: #017143;
+    color: white;
+    margin: 30px 260px;
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.texto button:hover{
+    background-color:#01a15f ;
+}
+
+/*Little shakes*/
+.shakes{
+  
+    margin-left: 480px;
+
+}
+
+.shakes img{
+    display: inline-block;
+    margin-bottom: -120px;
+    width: 60px;
+    height: auto;
+    margin-left: 35px;
+}
+
+.shakes img:hover{
+    width: 80px;
+    height: auto;
+}
